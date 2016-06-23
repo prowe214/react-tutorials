@@ -15,10 +15,15 @@
         "react": "^15.0.2",
         "react-dom": "^15.0.2",
         "webpack": "^1.13.0",
+        "webpack-dev-server": "^1.14.1"
     },
     "scripts": {
+        "dev": "webpack-dev-server --content-base src --inline --hot",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^1.13.1"
+    }
 }

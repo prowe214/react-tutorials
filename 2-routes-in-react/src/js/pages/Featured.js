@@ -21,6 +21,6 @@ export default class Featured extends React.Component {
                     {Articles}
                 </div>
             </div>
-        )
+        );
     }
 }
